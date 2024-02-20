@@ -5,7 +5,6 @@
 ## Our Team
  
 #### Martin Shavov - Scrum Trainer
-#### Martin Shavov - Designer
 #### Anton Babev - Developer
 #### Velizar Mihailov - Developer
 #### Tsvetomir Stoilov - Developer
@@ -21,7 +20,12 @@
 
 ## Used Technologies
 
-#### Used code editor & collaborative service:
-#### Used tools for our overall design:
+#### Used code editor & collaborative service: 
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Visual_Studio_Icon_2019.svg" height='40' width='40' alt="visual studio logo">
+<img src="https://img.icons8.com/?size=256&id=bVGqATNwfhYq&format=png "height='40' width='40' alt="github logo">
+<img src="https://img.icons8.com/?size=256&id=20906&format=png "height='40' width='40'alt="git logo">
+
 #### Used technologies for our project development:
+
+
 #### Used tools for our documentation, presentation & communication:
