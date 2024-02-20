@@ -1,8 +1,8 @@
-# <img src= "images/README.MD_images/logo.png" alt="team logo">Alpha-Green
+#Cosmos-Y
   
 <hr>
 
-## <img src= "images/README.MD_images/trophy_icon.png" alt="trophy icon">Our Team
+## Our Team
  
 #### Martin Shavov - Scrum Trainer
 #### Martin Shavov - Designer
@@ -10,16 +10,16 @@
 #### Velizar Mihailov - Developer
 #### Tsvetomir Stoilov - Developer
 
-## <img src= "images/README.MD_images/light-bulb_icon.png" alt="light bulb">Our Goal
+## Our Goal
 
-#### Our goal is to create a better and greener future for future generations to enjoy by developing state-of-the-art technologies and innovation to protect out planet from pollution and global warming.
+#### Our goal is to inform people about the planets in our solar system and beyond.
 
-## <img src= "images/README.MD_images/Document_icon.png" alt="Document icon"> Documentation
+## Documentation
 
-#### <img src= "images/README.MD_images/Word_logo.png" alt="word logo"> [Documentation](documents/alpha_green_documentation.docx)
-#### <img src= "images/README.MD_images/Powerpoint_logo.png" alt="powerpoint logo"> [Presentation](documents/alpha_green_presentation.pptx)
+#### <img src= "images/README.MD_images/Word_logo.png" alt="word logo"> [Documentation](documents/cosmos-Y_documentation.docx)
+#### <img src= "https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg" alt="powerpoint logo"> [Presentation](documents/Cosmos-Y_presentation.pptx)
 
-## <img src= "images/README.MD_images/laptop_icon.png" alt="laptop icon"> Used Technologies
+## Used Technologies
 
 #### Used code editor & collaborative service:
 #### Used tools for our overall design:
