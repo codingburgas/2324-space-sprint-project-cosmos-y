@@ -16,8 +16,8 @@
 
 ## Documentation
 
-#### <img src= "images/README.MD_images/Word_logo.png" alt="word logo"> [Documentation](documents/cosmos-Y_documentation.docx)
-#### <img src= "https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg" height='400' width='400' alt="powerpoint logo"> [Presentation](documents/Cosmos-Y_presentation.pptx)
+#### <img src= "https://upload.wikimedia.org/wikipedia/commons/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg" height='40' width='40' alt="word logo"> [Documentation](documents/cosmos-Y_documentation.docx)
+#### <img src= "https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg" height='40' width='40' alt="powerpoint logo"> [Presentation](documents/Cosmos-Y_presentation.pptx)
 
 ## Used Technologies
 
