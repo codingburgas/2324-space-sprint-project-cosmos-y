@@ -1,7 +1,6 @@
 #include <iostream>
-#include <cstdlib>  // For system("CLS") to clear the console
+#include <cstdlib>  // for system CLS to clear the console
 #include "./header.h"
-#include "./cosmos_animation.h"
 
 int main() 
 {
@@ -54,7 +53,7 @@ int main()
                     waitForEnter();
                     break;
                 case 9:
-                    break;  // Back to Planets Menu
+                    break;  // back to planets menu
                 default:
                     std::cout << "Invalid choice. Please try again." << std::endl;
                     std::cin.clear();
@@ -79,7 +78,7 @@ int main()
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         }
 
-        // Wait for user input before clearing the screen
+        // wait for enter before clearing the screen
         waitForEnter();
 
     } while (mainChoice != 4);
