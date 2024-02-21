@@ -15,33 +15,6 @@
 #define VENUS   "\033[38;2;223;139;57m"
 #define JUPITER "\033[38;2;176;159;140m"
 
-void displayMainMenu() {
-    system("CLS");
-    std::cout << "=====================================" << std::endl;
-    std::cout << "            Cosmos-Y                  " << std::endl;
-    std::cout << "=====================================" << std::endl;
-    std::cout << "1. Planets" << std::endl;
-    std::cout << "2. Galaxies" << std::endl;
-    std::cout << "3. Other Space Bodies" << std::endl;
-    std::cout << "4. Exit" << std::endl;
-}
-
-void displayPlanetsMenu() {
-    system("CLS");
-    std::cout << "=====================================" << std::endl;
-    std::cout << "             Planets                  " << std::endl;
-    std::cout << "=====================================" << std::endl;
-    std::cout << "1. Mercury" << std::endl;
-    std::cout << "2. Venus" << std::endl;
-    std::cout << "3. Earth" << std::endl;
-    std::cout << "4. Mars" << std::endl;
-    std::cout << "5. Jupiter" << std::endl;
-    std::cout << "6. Saturn" << std::endl;
-    std::cout << "7. Uranus" << std::endl;
-    std::cout << "8. Neptune" << std::endl;
-    std::cout << "9. Back to Main Menu" << std::endl;
-}
-
 void displayMercuryInfo() {
     system("CLS");
     std::cout << ORANGE << "======================================" <<RESET<< std::endl;
@@ -80,9 +53,9 @@ void displayVenusInfo() {
     std::cout << "|           |                        |" << std::endl;
     std::cout << "|Composition|                        |" << std::endl;
     std::cout << "|           |  Venus is made up of   |" << std::endl;
-    std::cout << "|     of    |   approximately 70%    |" << std::endl;
-    std::cout << "|           |    metallic and 30%    |" << std::endl;
-    std::cout << "|   planet  |   silicate material.   |" << std::endl;
+    std::cout << "|     of    |   approximately     |" << std::endl;
+    std::cout << "|           |         |" << std::endl;
+    std::cout << "|   planet  |      |" << std::endl;
     std::cout << "|           |                        |" << std::endl;
     std::cout << "|___________|________________________|" << std::endl;
     std::cout << "|           |                        |" << std::endl;
