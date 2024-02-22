@@ -21,7 +21,7 @@ void displayMercuryInfo() {
     std::cout << ORANGE << "|              Mercury               |" << RESET << std::endl;
     std::cout << ORANGE << "======================================" << RESET << std::endl;
     std::cout << "|   Place   |                        |" << std::endl;
-    std::cout << "|    i n    |  Mercury is the first  |" << std::endl;
+    std::cout << "|    in     |  Mercury is the first  |" << std::endl;
     std::cout << "|  S.system |planet in the S. system.|" << std::endl;
     std::cout << "|___________|________________________|" << std::endl;
     std::cout << "|           |                        |" << std::endl;
@@ -47,15 +47,15 @@ void displayVenusInfo() {
     std::cout << VENUS << "|               Venus               |" << RESET << std::endl;
     std::cout << VENUS << "=====================================" << RESET << std::endl;
     std::cout << "|   Place   |                        |" << std::endl;
-    std::cout << "|    i n    |  Venus is the second   |" << std::endl;
+    std::cout << "|    in     |  Venus is the second   |" << std::endl;
     std::cout << "|  S.system |planet in the S. system.|" << std::endl;
     std::cout << "|___________|________________________|" << std::endl;
     std::cout << "|           |                        |" << std::endl;
     std::cout << "|Composition|                        |" << std::endl;
     std::cout << "|           |  Venus is made up of   |" << std::endl;
-    std::cout << "|     of    |   approximately     |" << std::endl;
-    std::cout << "|           |         |" << std::endl;
-    std::cout << "|   planet  |      |" << std::endl;
+    std::cout << "|     of    |     approximately      |" << std::endl;
+    std::cout << "|           |                        |" << std::endl;
+    std::cout << "|   planet  |                        |" << std::endl;
     std::cout << "|           |                        |" << std::endl;
     std::cout << "|___________|________________________|" << std::endl;
     std::cout << "|           |                        |" << std::endl;
@@ -124,7 +124,7 @@ void displayNeptuneInfo() {
     std::cout << BLUE << "|              Neptune              |   " << RESET << std::endl;
     std::cout << BLUE << "=====================================" << RESET << std::endl;
     std::cout << "|   Place   |                        |" << std::endl;
-    std::cout << "|    i n    |  Neptune is the Eighth |" << std::endl;
+    std::cout << "|     in    |  Neptune is the Eighth |" << std::endl;
     std::cout << "|  S.system |         planet.        |" << std::endl;
     std::cout << "|___________|________________________|" << std::endl;
     std::cout << "|           |                        |" << std::endl;
@@ -144,7 +144,34 @@ void displayNeptuneInfo() {
     std::cout << "|___________|________the_sun_________|" << std::endl;
 }
 
+void displayMainMenu() {
+    system("CLS");
+    std::cout << "=====================================" << std::endl;
+    std::cout << "|             Cosmos-Y              | " << std::endl;
+    std::cout << "=====================================" << std::endl;
+    std::cout << "|[1]| Planets                       |" << std::endl;
+    std::cout << "|[2]| Galaxies                      |" << std::endl;
+    std::cout << "|[3]| Other Space Bodies            |" << std::endl;
+    std::cout << "|[4]| Exit                          |" << std::endl;
+    std::cout << "|___|_______________________________|" << std::endl;
+}
 
+void displayPlanetsMenu() {
+    system("CLS");
+    std::cout << "=====================================" << std::endl;
+    std::cout << "|            Planets                |" << std::endl;
+    std::cout << "=====================================" << std::endl;
+    std::cout << "| [1] | Mercury                     |" << std::endl;
+    std::cout << "| [2] | Venus                       |" << std::endl;
+    std::cout << "| [3] | Earth                       |" << std::endl;
+    std::cout << "| [4] | Mars                        |" << std::endl;
+    std::cout << "| [5] | Jupiter                     |" << std::endl;
+    std::cout << "| [6] | Saturn                      |" << std::endl;
+    std::cout << "| [7] | Uranus                      |" << std::endl;
+    std::cout << "| [8] | Neptune                     |" << std::endl;
+    std::cout << "| [9] | Back to Main Menu           |" << std::endl;
+    std::cout << "|___________________________________|" << std::endl;
+}
 
 void waitForEnter() {
     std::cout << "Press Enter to continue...";
