@@ -173,6 +173,48 @@ void displayPlanetsMenu() {
     std::cout << "|___________________________________|" << std::endl;
 }
 
+void displayOtherSpaceBodiesMenu() {
+    system("CLS");
+    std::cout << "=====================================" << std::endl;
+    std::cout << "|      Other Space Bodies           |" << std::endl;
+    std::cout << "=====================================" << std::endl;
+    std::cout << "| [1] | Black Hole                  |" << std::endl;
+    std::cout << "| [2] | White Dwarf                 |" << std::endl;
+    std::cout << "| [3] | Back to Main Menu           |" << std::endl;
+    std::cout << "|___________________________________|" << std::endl;
+}
+
+void displayBlackHoleInfo() {
+    system("CLS");
+    std::cout << VENUS << "======================================" << RESET << std::endl;
+    std::cout << VENUS << "|             Black Hole             |" << RESET << std::endl;
+    std::cout << VENUS << "======================================" << RESET << std::endl;
+    std::cout << "|     Black holes are regions        |" << std::endl;
+    std::cout << "|     of spacetime exhibiting        |" << std::endl;
+    std::cout << "|     gravitational attraction       |" << std::endl;
+    std::cout << "|      so strong that nothing        |" << std::endl;
+    std::cout << "|       can escape, not even         |" << std::endl;
+    std::cout << "|      light. They are formed        |" << std::endl;
+    std::cout << "|       from massive stars           |" << std::endl;
+    std::cout << "|      collapsing under their        |" << std::endl;
+    std::cout << "|          own gravity.              |" << std::endl;
+    std::cout << "|___________________________________ |" << std::endl;
+    std::cout << "|           |                        |" << std::endl;
+    std::cout << "|  Avarage  | Black holes do not have|" << std::endl;
+    std::cout << "|temperature| a surface temperature  |" << std::endl;
+    std::cout << "|    and    | as they trap everything|" << std::endl;
+    std::cout << "|  Distance | including light.       |" << std::endl;
+    std::cout << "|from center|                        |" << std::endl;
+    std::cout << "|___________|________________________|" << std::endl;
+}
+
+void displayWhiteDwarfInfo() {
+    system("CLS");
+    std::cout << "=====================================" << std::endl;
+    std::cout << "|            White Dwarf            |" << std::endl;
+    std::cout << "=====================================" << std::endl;
+}
+
 void waitForEnter() {
     std::cout << "Press Enter to continue...";
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');

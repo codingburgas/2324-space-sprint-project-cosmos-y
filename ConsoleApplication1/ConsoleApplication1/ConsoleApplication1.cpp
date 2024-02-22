@@ -66,8 +66,28 @@ int main()
             waitForEnter();
             break;
         case 3:
-            std::cout << "Other Space Bodies information not implemented in this version." << std::endl;
-            waitForEnter();
+            do {
+                displayOtherSpaceBodiesMenu();
+                std::cout << "Enter your choice: ";
+                std::cin >> subChoice;
+
+                switch (subChoice) {
+                case 1:
+                    displayBlackHoleInfo();
+                    waitForEnter();
+                    break;
+                case 2:
+                    displayWhiteDwarfInfo();
+                    waitForEnter();
+                    break;
+                case 3:
+                    break;  // back to main menu
+                default:
+                    std::cout << "Invalid choice. Please try again." << std::endl;
+                    std::cin.clear();
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                }
+            } while (subChoice != 3);
             break;
         case 4:
             std::cout << "Exiting Cosmos-Y..." << std::endl;
