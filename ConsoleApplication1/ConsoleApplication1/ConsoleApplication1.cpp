@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>  // for system CLS to clear the console
-#include "./header.h"
+#include "header.h"
 
 int main() 
 {
