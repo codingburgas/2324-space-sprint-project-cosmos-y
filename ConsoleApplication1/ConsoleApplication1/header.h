@@ -13,6 +13,7 @@
 #define VENUS   "\033[38;2;223;139;57m"
 #define JUPITER "\033[38;2;176;159;140m"
 #define DARK_BLUE "\033[0;34m"
+#define PURPLE "\033[38;2;112;38;112m"
 
 void displayMercuryInfo();
 
@@ -43,3 +44,5 @@ void displayWhiteDwarfInfo();
 void waitForEnter();
 
 void displayGalaxiesMenu();
+
+void displayMilkyWayInfo();

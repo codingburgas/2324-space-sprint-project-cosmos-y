@@ -209,26 +209,26 @@ void displayUranusInfo() {
     std::cout << CYAN << "=====================================" << RESET << std::endl;
     std::cout << CYAN << "|              Uranus               |" << RESET << std::endl;
     std::cout << CYAN << "=====================================" << RESET << std::endl;
-    std::cout << "|   Place   |                       |" << std::endl;
-    std::cout << "|     in    | Uranus is the Seventh |" << std::endl;
-    std::cout << "|  S.system |        planet.        |" << std::endl;
+    std::cout << "|  Place in |                       |" << std::endl;
+    std::cout << "|   Solar   | Uranus is the Seventh |" << std::endl;
+    std::cout << "|   System  |        planet.        |" << std::endl;
     std::cout << "|___________|_______________________|" << std::endl;
     std::cout << "|           |                       |" << std::endl;
-    std::cout << "|Composition|About 83% of Uranus is |" << std::endl;
-    std::cout << "|           |composed of hydrogen,  |" << std::endl;
-    std::cout << "|     of    |helium, and methane.   |" << std::endl;
+    std::cout << "|           |About 83% of Uranus is |" << std::endl;
+    std::cout << "|           | composed of hydrogen, |" << std::endl;
+    std::cout << "|Composition| helium, and methane.  |" << std::endl;
     std::cout << "|           |                       |" << std::endl;
-    std::cout << "|   planet  |It also contains       |" << std::endl;
-    std::cout << "|           |traces of water and    |" << std::endl;
-    std::cout << "|           |ammonia.               |" << std::endl;
+    std::cout << "|           |It also contains traces|" << std::endl;
+    std::cout << "|           | of water and ammonia  |" << std::endl;
     std::cout << "|___________|_______________________|" << std::endl;
     std::cout << "|           |The average temperature|" << std::endl;
     std::cout << "|  Average  |of Uranus is about -224|" << std::endl;
     std::cout << "|temperature|degrees Celsius.It is  |" << std::endl;
     std::cout << "|    and    |located at a distance  |" << std::endl;
     std::cout << "|  Distance |of 2.871 billion km    |" << std::endl;
-    std::cout << "| from  Sun |      away from        |" << std::endl;
-    std::cout << "|___________|_______the_sun_________|" << std::endl;
+    std::cout << "| from Sun  |      away from        |" << std::endl;
+    std::cout << "|           |       the sun         |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
     // Add more details about Uranus
 }
 
@@ -237,9 +237,10 @@ void displayNeptuneInfo() {
     std::cout << BLUE << "=====================================" << RESET << std::endl;
     std::cout << BLUE << "|              Neptune              |   " << RESET << std::endl;
     std::cout << BLUE << "=====================================" << RESET << std::endl;
-    std::cout << "|   Place   |                        |" << std::endl;
-    std::cout << "|     in    |  Neptune is the Eighth |" << std::endl;
-    std::cout << "|  S.system |         planet.        |" << std::endl;
+    std::cout << "|           |                        |" << std::endl;
+    std::cout << "|  Place in |   Neptune is the 8th   |" << std::endl;
+    std::cout << "|   Solar   |    planet being the    |" << std::endl;
+    std::cout << "|   System  | furthest from the sun. |" << std::endl;
     std::cout << "|___________|________________________|" << std::endl;
     std::cout << "|           |                        |" << std::endl;
     std::cout << "|Composition|About 80% of the planet |" << std::endl;
@@ -252,10 +253,11 @@ void displayNeptuneInfo() {
     std::cout << "|           |                        |" << std::endl;
     std::cout << "|  Avarage  |The average temperature |" << std::endl;
     std::cout << "|temperature| of the planet Neptune  |" << std::endl;
-    std::cout << "|    and    |is about -214 degrees C.|" << std::endl;
-    std::cout << "|  Distance | It is at a distance of |" << std::endl;
-    std::cout << "|from    sun| 4.4723 billion km from |" << std::endl;
-    std::cout << "|___________|________the_sun_________|" << std::endl;
+    std::cout << "|    and    | is about -214°C. It is |" << std::endl;
+    std::cout << "|  Distance |    at a distance of    |" << std::endl;
+    std::cout << "| from sun  |  4.4 billion km from   |" << std::endl;
+    std::cout << "|           |        the sun         |" << std::endl;
+    std::cout << "|___________|________________________|" << std::endl;
 }
 
 void displayBlackHoleInfo() {
@@ -304,5 +306,37 @@ void displayGalaxiesMenu() {
     std::cout << "| [2] | Andromeda                    |" << std::endl;
     std::cout << "| [3] | Triangulum                   |" << std::endl;
     std::cout << "| [4] | Back to Main Menu            |" << std::endl;
+    std::cout << "|____________________________________|" << std::endl;
+}
+
+void displayMilkyWayInfo() {
+    system("CLS");
+    std::cout << PURPLE << "=====================================" << RESET << std::endl;
+    std::cout << PURPLE << "|            Milky Way              |" << RESET << std::endl;
+    std::cout << PURPLE << "=====================================" << RESET << std::endl;
+    std::cout << "|                                   |" << std::endl;
+    std::cout << "|  The Milky Way is a barred spiral |" << std::endl;
+    std::cout << "|  galaxy that contains around      |" << std::endl;
+    std::cout << "|  100 billion stars, including our |" << std::endl;
+    std::cout << "|  Sun. The Milky Way is part of    |" << std::endl;
+    std::cout << "|  the Virgo Supercluster of        |" << std::endl;
+    std::cout << "|  galaxies.                        |" << std::endl;
     std::cout << "|___________________________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           |The Milky way is a huge|" << std::endl;
+    std::cout << "|    Size   |Galaxy, which is around|" << std::endl;
+    std::cout << "|           |  100 thousand light   |" << std::endl;
+    std::cout << "|           |    years in diameter  |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           |   The Milky Way is    |" << std::endl;
+    std::cout << "|           | composed by billions  |" << std::endl;
+    std::cout << "|           | stars, dust, debree,  |" << std::endl;
+    std::cout << "|Composition|   dark matter and     |" << std::endl;
+    std::cout << "|           |  other space bodies   |" << std::endl;
+    std::cout << "|           |   just like other     |" << std::endl;
+    std::cout << "|           |       galaxies        |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+
+
 }

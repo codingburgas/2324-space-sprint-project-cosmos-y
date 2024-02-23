@@ -69,7 +69,7 @@ int main()
 
                 switch (subChoice) {
                 case 1:
-                    std::cout << "Information about Milky Way." << std::endl;
+                    displayMilkyWayInfo();
                     waitForEnter();
                     break;
                 case 2:
