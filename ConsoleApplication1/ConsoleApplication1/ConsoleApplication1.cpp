@@ -62,8 +62,32 @@ int main()
             } while (subChoice != 9);
             break;
         case 2:
-            std::cout << "Galaxies information not implemented in this version." << std::endl;
-            waitForEnter();
+            do {
+                displayGalaxiesMenu();
+                std::cout << "Enter your choice: ";
+                std::cin >> subChoice;
+
+                switch (subChoice) {
+                case 1:
+                    std::cout << "Information about Milky Way." << std::endl;
+                    waitForEnter();
+                    break;
+                case 2:
+                    std::cout << "Information about Andromeda." << std::endl;
+                    waitForEnter();
+                    break;
+                case 3:
+                    std::cout << "Information about Triangulum." << std::endl;
+                    waitForEnter();
+                    break;
+                case 4:
+                    break;  // back to main menu
+                default:
+                    std::cout << "Invalid choice. Please try again." << std::endl;
+                    std::cin.clear();
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                }
+            } while (subChoice != 4);
             break;
         case 3:
             do {
