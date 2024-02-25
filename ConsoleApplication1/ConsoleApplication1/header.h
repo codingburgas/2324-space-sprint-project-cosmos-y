@@ -18,6 +18,7 @@
 #define CYAN2 "\033[38;2;13;152;186m"
 #define LIGHT_BLUE "\033[38;2;173;216;230m"
 #define LIGHT_YELLOW "\033[38;2;254;255;120m"
+#define GRAY "\033[38;2;128;128;128m"
 
 void displayMercuryInfo();
 
@@ -58,3 +59,9 @@ void displayTriangulumInfo();
 void displayTadpoleInfo();
 
 void displayHoagInfo();
+
+void displayNeutronStarInfo();
+
+void displayAsteroidInfo();
+
+void displayUniverseInfo();

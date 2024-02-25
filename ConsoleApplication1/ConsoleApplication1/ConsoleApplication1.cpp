@@ -53,7 +53,7 @@ int main()
                     waitForEnter();
                     break;
                 case 9:
-                    break;  // back to planets menu
+                    break;  
                 default:
                     std::cout << "Invalid choice. Please try again." << std::endl;
                     std::cin.clear();
@@ -95,7 +95,7 @@ int main()
                     std::cin.clear();
                     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                 }
-            } while (subChoice != 4);
+            } while (subChoice != 6);
             break;
         case 3:
             do {
@@ -113,13 +113,25 @@ int main()
                     waitForEnter();
                     break;
                 case 3:
-                    break;  // back to main menu
+                    displayNeutronStarInfo();
+                    waitForEnter();
+                    break;
+                case 4:
+                    displayAsteroidInfo();
+                    waitForEnter();
+                    break;
+                case 5:
+                    displayUniverseInfo();
+                    waitForEnter();
+                    break;
+                case 6:
+                    break;
                 default:
                     std::cout << "Invalid choice. Please try again." << std::endl;
                     std::cin.clear();
                     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                 }
-            } while (subChoice != 3);
+            } while (subChoice != 6);
             break;
         case 4:
             std::cout << "Exiting Cosmos-Y..." << std::endl;

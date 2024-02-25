@@ -1,5 +1,6 @@
 #include "header.h"
 
+
 void displayMainMenu() {
     system("CLS");
     std::cout << "=====================================" << std::endl;
@@ -9,7 +10,7 @@ void displayMainMenu() {
     std::cout << "|[2]| Galaxies                      |" << std::endl;
     std::cout << "|[3]| Other Space Bodies            |" << std::endl;
     std::cout << "|[4]| Exit                          |" << std::endl;
-    std::cout << "|___|_______________________________|" << std::endl;
+    std::cout << "|___________________________________|" << std::endl;
 }
 
 void displaySolarPlanetsMenu() {
@@ -32,12 +33,35 @@ void displaySolarPlanetsMenu() {
 void displayOtherSpaceBodiesMenu() {
     system("CLS");
     std::cout << "=====================================" << std::endl;
-    std::cout << "|      Other Space Bodies           |" << std::endl;
+    std::cout << "|         Other Space Bodies        |" << std::endl;
     std::cout << "=====================================" << std::endl;
     std::cout << "| [1] | Black Hole                  |" << std::endl;
     std::cout << "| [2] | White Dwarf                 |" << std::endl;
-    std::cout << "| [3] | Back to Main Menu           |" << std::endl;
+    std::cout << "| [3] | Neutron Star                |" << std::endl;
+    std::cout << "| [4] | Asteroid                    |" << std::endl;
+    std::cout << "| [5] | The Universe                |" << std::endl;
+    std::cout << "| [6] | Back to Main Menu           |" << std::endl;
     std::cout << "|___________________________________|" << std::endl;
+}
+
+void displayGalaxiesMenu() {
+    system("CLS");
+    std::cout << "=====================================" << std::endl;
+    std::cout << "|             Galaxies               |" << std::endl;
+    std::cout << "=====================================" << std::endl;
+    std::cout << "| [1] | Milky Way                    |" << std::endl;
+    std::cout << "| [2] | Andromeda                    |" << std::endl;
+    std::cout << "| [3] | Triangulum                   |" << std::endl;
+    std::cout << "| [4] | Tadpole Galaxy               |" << std::endl;
+    std::cout << "| [5] | Hoag's Object                |" << std::endl;
+    std::cout << "| [6] | Back to Main Menu            |" << std::endl;
+    std::cout << "|____________________________________|" << std::endl;
+}
+
+void waitForEnter() {
+    std::cout << "Press Enter to continue...";
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    std::cin.get();
 }
 
 void displayMercuryInfo() {
@@ -63,7 +87,8 @@ void displayMercuryInfo() {
     std::cout << "|    and    |is about 430 degrees C. |" << std::endl;
     std::cout << "|  Distance | It is at a distance of |" << std::endl;
     std::cout << "|from    sun| 62.816 million km from |" << std::endl;
-    std::cout << "|___________|________the_sun_________|" << std::endl;
+    std::cout << "|           |        the sun         |" << std::endl;
+    std::cout << "|___________|________________________|" << std::endl;
 }
 
 void displayVenusInfo() {
@@ -89,7 +114,8 @@ void displayVenusInfo() {
     std::cout << "|    and    |is about 430 degrees C. |" << std::endl;
     std::cout << "|  Distance | It is at a distance of |" << std::endl;
     std::cout << "|from    sun| 108.74 million km from |" << std::endl;
-    std::cout << "|___________|________the_sun_________|" << std::endl;
+    std::cout << "|           |        the sun         |" << std::endl;
+    std::cout << "|___________|________________________|" << std::endl;
 }
 
 void displayEarthInfo() {
@@ -171,9 +197,11 @@ void displayJupiterInfo() {
     std::cout << "|  Average  |The average temperature |" << std::endl;
     std::cout << "|temperature|of Jupiter is about     |" << std::endl;
     std::cout << "|           |-145 degrees Celsius.   |" << std::endl;
+    std::cout << "|           |                        |" << std::endl;
     std::cout << "|  Distance |It is located at a      |" << std::endl;
-    std::cout << "|from    sun|distance of 778m km away|" << std::endl;
-    std::cout << "|___________|from_the_Sun.___________|" << std::endl;
+    std::cout << "| from  sun |distance of 778m km away|" << std::endl;
+    std::cout << "|           |from the Sun.           |" << std::endl;
+    std::cout << "|___________|________________________|" << std::endl;
 }
 
 void displaySaturnInfo() {
@@ -229,7 +257,6 @@ void displayUranusInfo() {
     std::cout << "| from Sun  |      away from        |" << std::endl;
     std::cout << "|           |       the sun         |" << std::endl;
     std::cout << "|___________|_______________________|" << std::endl;
-    // Add more details about Uranus
 }
 
 void displayNeptuneInfo() {
@@ -253,35 +280,55 @@ void displayNeptuneInfo() {
     std::cout << "|           |                        |" << std::endl;
     std::cout << "|  Avarage  |The average temperature |" << std::endl;
     std::cout << "|temperature| of the planet Neptune  |" << std::endl;
-    std::cout << "|    and    | is about -214°C. It is |" << std::endl;
-    std::cout << "|  Distance |    at a distance of    |" << std::endl;
-    std::cout << "| from sun  |  4.4 billion km from   |" << std::endl;
+    std::cout << "|    and    | is about -214 degrees. |" << std::endl;
+    std::cout << "|  Distance |   It is at a distance  |" << std::endl;
+    std::cout << "| from sun  | of 4.4 billion km from |" << std::endl;
     std::cout << "|           |        the sun         |" << std::endl;
     std::cout << "|___________|________________________|" << std::endl;
 }
 
 void displayBlackHoleInfo() {
     system("CLS");
-    std::cout << DARK_BLUE << "======================================" << RESET << std::endl;
-    std::cout << DARK_BLUE << "|             Black Hole             |" << RESET << std::endl;
-    std::cout << DARK_BLUE << "======================================" << RESET << std::endl;
-    std::cout << "|     Black holes are regions        |" << std::endl;
-    std::cout << "|     of spacetime exhibiting        |" << std::endl;
-    std::cout << "|     gravitational attraction       |" << std::endl;
-    std::cout << "|      so strong that nothing        |" << std::endl;
-    std::cout << "|       can escape, not even         |" << std::endl;
-    std::cout << "|      light. They are formed        |" << std::endl;
-    std::cout << "|       from massive stars           |" << std::endl;
-    std::cout << "|      collapsing under their        |" << std::endl;
-    std::cout << "|          own gravity.              |" << std::endl;
-    std::cout << "|___________________________________ |" << std::endl;
-    std::cout << "|           |                        |" << std::endl;
-    std::cout << "|  Avarage  | Black holes do not have|" << std::endl;
-    std::cout << "|temperature| a surface temperature  |" << std::endl;
-    std::cout << "|    and    | as they trap everything|" << std::endl;
-    std::cout << "|  Distance | including light.       |" << std::endl;
-    std::cout << "|from center|                        |" << std::endl;
-    std::cout << "|___________|________________________|" << std::endl;
+    std::cout << DARK_BLUE << "=====================================" << RESET << std::endl;
+    std::cout << DARK_BLUE << "|            Black Holes            |" << RESET << std::endl;
+    std::cout << DARK_BLUE << "=====================================" << RESET << std::endl;
+    std::cout << "|                                   |" << std::endl;
+    std::cout << "|  Black holes are fascinating      |" << std::endl;
+    std::cout << "|  objects with properties that     |" << std::endl;
+    std::cout << "|  challenge our understanding of   |" << std::endl;
+    std::cout << "|  physics. They have captivated    |" << std::endl;
+    std::cout << "|  scientists and the public alike, |" << std::endl;
+    std::cout << "|  and their study continues to     |" << std::endl;
+    std::cout << "|  provide insights into the nature |" << std::endl;
+    std::cout << "|  of space, time, and the universe.|" << std::endl;
+    std::cout << "|___________________________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           |Black holes are formed |" << std::endl;
+    std::cout << "|           |when massive stars     |" << std::endl;
+    std::cout << "|           |exhaust their fuel and |" << std::endl;
+    std::cout << "|           |collapse under their   |" << std::endl;
+    std::cout << "| Creation  |own gravity. This      |" << std::endl;
+    std::cout << "|           |continues until all the|" << std::endl;
+    std::cout << "|           |mass is concentrated   |" << std::endl;
+    std::cout << "|           |into a single point of |" << std::endl;
+    std::cout << "|           |infinite density, known|" << std::endl;
+    std::cout << "|           |as a singularity.      |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           |Black holes are scaled |" << std::endl;
+    std::cout << "|           |based on their mass.   |" << std::endl;
+    std::cout << "|           |Smaller black holes are|" << std::endl;
+    std::cout << "|           |classified as stellar  |" << std::endl;
+    std::cout << "|           |black holes with masses|" << std::endl;
+    std::cout << "|   Size    |up to a few times the  |" << std::endl;
+    std::cout << "|  Scaling  | Sun's. Supermassive   |" << std::endl;
+    std::cout << "|  System   |black holes, found at  |" << std::endl;
+    std::cout << "|           |the centers of         |" << std::endl;
+    std::cout << "|           |galaxies, can have     |" << std::endl;
+    std::cout << "|           |masses millions or     |" << std::endl;
+    std::cout << "|           |billions of times that |" << std::endl;
+    std::cout << "|           |of the Sun.            |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
 }
 
 void displayWhiteDwarfInfo() {
@@ -289,26 +336,181 @@ void displayWhiteDwarfInfo() {
     std::cout << "=====================================" << std::endl;
     std::cout << "|            White Dwarf            |" << std::endl;
     std::cout << "=====================================" << std::endl;
+    std::cout << "|                                   |" << std::endl;
+    std::cout << "|  White dwarfs are the remnants    |" << std::endl;
+    std::cout << "|  of low to medium mass stars that |" << std::endl;
+    std::cout << "|  have exhausted their nuclear fuel|" << std::endl;
+    std::cout << "|  and have collapsed under gravity |" << std::endl;
+    std::cout << "|  into extremely dense objects.    |" << std::endl;
+    std::cout << "|___________________________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|  Creation |White dwarfs are formed|" << std::endl;
+    std::cout << "|           |during the final stages|" << std::endl;
+    std::cout << "|           |of stellar evolution,  |" << std::endl;
+    std::cout << "|           |when a star no longer  |" << std::endl;
+    std::cout << "|           |has enough nuclear fuel|" << std::endl;
+    std::cout << "|           |to maintain its fusion |" << std::endl;
+    std::cout << "|           |reactions and collapses|" << std::endl;
+    std::cout << "|           |under its own gravity. |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|    Age    |The age of white dwarfs|" << std::endl;
+    std::cout << "|           |varies depending on the|" << std::endl;
+    std::cout << "|           |mass of the progenitor |" << std::endl;
+    std::cout << "|           |star. They can exist   |" << std::endl;
+    std::cout << "|           |for billions of years, |" << std::endl;
+    std::cout << "|           |gradually cooling over |" << std::endl;
+    std::cout << "|           |time.                  |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|  Surface  |White dwarfs have      |" << std::endl;
+    std::cout << "|   Temp.   |extremely high         |" << std::endl;
+    std::cout << "|           |surface temperatures,  |" << std::endl;
+    std::cout << "|           |ranging from tens of   |" << std::endl;
+    std::cout << "|           |thousands to hundreds  |" << std::endl;
+    std::cout << "|           |of thousands of        |" << std::endl;
+    std::cout << "|           |degrees Celsius.       |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
 }
 
-void waitForEnter() {
-    std::cout << "Press Enter to continue...";
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    std::cin.get();
-}
-
-void displayGalaxiesMenu() {
+void displayNeutronStarInfo() {
     system("CLS");
-    std::cout << "=====================================" << std::endl;
-    std::cout << "|             Galaxies               |" << std::endl;
-    std::cout << "=====================================" << std::endl;
-    std::cout << "| [1] | Milky Way                    |" << std::endl;
-    std::cout << "| [2] | Andromeda                    |" << std::endl;
-    std::cout << "| [3] | Triangulum                   |" << std::endl;
-    std::cout << "| [4] | Tadpole Galaxy               |" << std::endl;
-    std::cout << "| [5] | Hoag's Object                |" << std::endl;
-    std::cout << "| [6] | Back to Main Menu            |" << std::endl;
-    std::cout << "|____________________________________|" << std::endl;
+    std::cout << LIGHT_BLUE << "=====================================" << RESET << std::endl;
+    std::cout << LIGHT_BLUE << "|           Neutron Star            |" << RESET << std::endl;
+    std::cout << LIGHT_BLUE << "=====================================" << RESET << std::endl;
+    std::cout << "|                                   |" << std::endl;
+    std::cout << "|  Neutron stars are incredibly     |" << std::endl;
+    std::cout << "|  dense stellar remnants composed  |" << std::endl;
+    std::cout << "|  almost entirely of neutrons,     |" << std::endl;
+    std::cout << "|  hence their name. They form      |" << std::endl;
+    std::cout << "|  when massive stars undergo       |" << std::endl;
+    std::cout << "|  supernova explosions, leaving    |" << std::endl;
+    std::cout << "|  behind a core of compressed      |" << std::endl;
+    std::cout << "|  neutrons.                        |" << std::endl;
+    std::cout << "|___________________________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "| Creation  |Neutron stars are made |" << std::endl;
+    std::cout << "|           |during supernova events|" << std::endl;
+    std::cout << "|           |when massive stars     |" << std::endl;
+    std::cout << "|           |exhaust their nuclear  |" << std::endl;
+    std::cout << "|           |fuel and collapse under|" << std::endl;
+    std::cout << "|           |gravity. The core      |" << std::endl;
+    std::cout << "|           |becomes so dense that  |" << std::endl;
+    std::cout << "|           |it consists primarily  |" << std::endl;
+    std::cout << "|           |of neutrons.           |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|    Age    |Neutron stars can be   |" << std::endl;
+    std::cout << "|           |extremely old, with    |" << std::endl;
+    std::cout << "|           |some existing for      |" << std::endl;
+    std::cout << "|           |billions of years. They|" << std::endl;
+    std::cout << "|           |cool over time, but    |" << std::endl;
+    std::cout << "|           |their age can be       |" << std::endl;
+    std::cout << "|           |difficult to determine |" << std::endl;
+    std::cout << "|           |precisely.             |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|  Surface  |Neutron stars have     |" << std::endl;
+    std::cout << "|   Temp.   |extremely high         |" << std::endl;
+    std::cout << "|           |surface temperatures,  |" << std::endl;
+    std::cout << "|           |ranging from hundreds  |" << std::endl;
+    std::cout << "|           |of thousands to        |" << std::endl;
+    std::cout << "|           |millons of degrees     |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+}
+
+void displayAsteroidInfo() {
+    system("CLS");
+    std::cout << GRAY << "=====================================" << RESET << std::endl;
+    std::cout << GRAY << "|             Asteroids             |" << RESET << std::endl;
+    std::cout << GRAY << "=====================================" << RESET << std::endl;
+    std::cout << "|                                   |" << std::endl;
+    std::cout << "|  Asteroids are small rocky        |" << std::endl;
+    std::cout << "|  bodies that orbit the Sun, mostly|" << std::endl;
+    std::cout << "|  located in the asteroid belt     |" << std::endl;
+    std::cout << "|  between Mars and Jupiter. They   |" << std::endl;
+    std::cout << "|  are remnants from the early      |" << std::endl;
+    std::cout << "|  formation of the solar system.   |" << std::endl;
+    std::cout << "|___________________________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|   Size    |Asteroids vary greatly |" << std::endl;
+    std::cout << "|           |in size, from tiny     |" << std::endl;
+    std::cout << "|           |pebbles to large bodies|" << std::endl;
+    std::cout << "|           |measuring hundreds of  |" << std::endl;
+    std::cout << "|           |kilometers across.     |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "| Difference|Asteroids are rocky    |" << std::endl;
+    std::cout << "|   from    |bodies similar to      |" << std::endl;
+    std::cout << "|  Meteors  |planets but smaller.   |" << std::endl;
+    std::cout << "|           |When they enter        |" << std::endl;
+    std::cout << "|           |Earth's atmosphere they|" << std::endl;
+    std::cout << "|           |are called meteors and |" << std::endl;
+    std::cout << "|           |if they reach the      |" << std::endl;
+    std::cout << "|           |ground, they are termed|" << std::endl;
+    std::cout << "|           |meteorites.            |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|  Examples |Some well-known        |" << std::endl;
+    std::cout << "|           |asteroids include      |" << std::endl;
+    std::cout << "|           |Ceres, Vesta, Eros and |" << std::endl;
+    std::cout << "|           |Mathilde.              |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+}
+
+void displayUniverseInfo() {
+    system("CLS");
+    std::cout << PURPLE << "=====================================" << RESET << std::endl;
+    std::cout << PURPLE << "|" << BLUE << "           The Universe          " << PURPLE << " | " << RESET << std::endl;
+    std::cout << PURPLE << "=====================================" << RESET << std::endl;
+    std::cout << "|                                   |" << std::endl;
+    std::cout << "|  The Universe is the entirety of  |" << std::endl;
+    std::cout << "|  space, time, matter, energy, and |" << std::endl;
+    std::cout << "|  the physical laws and constants  |" << std::endl;
+    std::cout << "|  that describe them. It contains  |" << std::endl;
+    std::cout << "|  all galaxies, stars, planets,    |" << std::endl;
+    std::cout << "|  and other cosmic entities.       |" << std::endl;
+    std::cout << "|___________________________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|    Age    |The age of the Universe|" << std::endl;
+    std::cout << "|           |is approximately 13.8  |" << std::endl;
+    std::cout << "|           |billion years, based on|" << std::endl;
+    std::cout << "|           |observations of the    |" << std::endl;
+    std::cout << "|           |cosmic microwave       |" << std::endl;
+    std::cout << "|           |background radiation.  |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "| Creation  |The Universe is thought|" << std::endl;
+    std::cout << "|           |to have originated from|" << std::endl;
+    std::cout << "|           |a cosmic event known as|" << std::endl;
+    std::cout << "|           |the Big Bang, where all|" << std::endl;
+    std::cout << "|           |matter and energy were |" << std::endl;
+    std::cout << "|           |initially compressed   |" << std::endl;
+    std::cout << "|           |into a singular point  |" << std::endl;
+    std::cout << "|           |of infinite density.   |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|   Size    |The size of the        |" << std::endl;
+    std::cout << "|           |Universe is enormously |" << std::endl;
+    std::cout << "|           |vast currently thought |" << std::endl;
+    std::cout << "|           |to be about 93 billion |" << std::endl;
+    std::cout << "|           |light years in         |" << std::endl;
+    std::cout << "|           |diameter.              |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "| Expansion |The Universe is        |" << std::endl;
+    std::cout << "|           |expanding at an        |" << std::endl;
+    std::cout << "|           |accelerating rate, as  |" << std::endl;
+    std::cout << "|           |observed through the   |" << std::endl;
+    std::cout << "|           |redshift of distant    |" << std::endl;
+    std::cout << "|           |galaxies. This shifting|" << std::endl;
+    std::cout << "|           |is driven by dark      |" << std::endl;
+    std::cout << "|           |energy, an unknown     |" << std::endl;
+    std::cout << "|           |force that makes up    |" << std::endl;
+    std::cout << "|           |about 68% of the total |" << std::endl;
+    std::cout << "|           |energy density of the  |" << std::endl;
+    std::cout << "|           |Universe.              |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
 }
 
 void displayMilkyWayInfo() {
