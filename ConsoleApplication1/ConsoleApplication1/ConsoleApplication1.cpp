@@ -15,7 +15,7 @@ int main()
         switch (mainChoice) {
         case 1:
             do {
-                displayPlanetsMenu();
+                displaySolarPlanetsMenu();
                 std::cout << "Enter your choice: ";
                 std::cin >> subChoice;
 
@@ -73,15 +73,23 @@ int main()
                     waitForEnter();
                     break;
                 case 2:
-                    std::cout << "Information about Andromeda." << std::endl;
+                    displayAndromedaInfo();
                     waitForEnter();
                     break;
                 case 3:
-                    std::cout << "Information about Triangulum." << std::endl;
+                    displayTriangulumInfo();
                     waitForEnter();
                     break;
                 case 4:
-                    break;  // back to main menu
+                    displayTadpoleInfo();
+                    waitForEnter();
+                    break;
+                case 5:
+                    displayHoagInfo();
+                    waitForEnter();
+                    break;
+                case 6:
+                    break;
                 default:
                     std::cout << "Invalid choice. Please try again." << std::endl;
                     std::cin.clear();

@@ -1,42 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\akbabev22\\Documents\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\akbabev22\\source\\repos\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA3CA5DB-BD9E-4E04-9176-785EFCA15258}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\akbabev22\\Documents\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CA3CA5DB-BD9E-4E04-9176-785EFCA15258}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CA3CA5DB-BD9E-4E04-9176-785EFCA15258}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\akbabev22\\source\\repos\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CA3CA5DB-BD9E-4E04-9176-785EFCA15258}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA3CA5DB-BD9E-4E04-9176-785EFCA15258}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\akbabev22\\Documents\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CA3CA5DB-BD9E-4E04-9176-785EFCA15258}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\akbabev22\\source\\repos\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CA3CA5DB-BD9E-4E04-9176-785EFCA15258}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA3CA5DB-BD9E-4E04-9176-785EFCA15258}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\akbabev22\\Documents\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CA3CA5DB-BD9E-4E04-9176-785EFCA15258}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CA3CA5DB-BD9E-4E04-9176-785EFCA15258}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\akbabev22\\source\\repos\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CA3CA5DB-BD9E-4E04-9176-785EFCA15258}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\akbabev22\\Documents\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\Source.cpp",
+              "DocumentMoniker": "C:\\Users\\akbabev22\\source\\repos\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\Source.cpp",
               "RelativeDocumentMoniker": "ConsoleApplication1\\Source.cpp",
-              "ToolTip": "C:\\Users\\akbabev22\\Documents\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\Source.cpp",
+              "ToolTip": "C:\\Users\\akbabev22\\source\\repos\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\Source.cpp",
               "RelativeToolTip": "ConsoleApplication1\\Source.cpp",
-              "ViewState": "AQIAABIBAAAAAACgyY0HwDsBAABLAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-02-23T21:00:48.634Z",
               "EditorCaption": ""
@@ -45,24 +41,24 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "header.h",
-              "DocumentMoniker": "C:\\Users\\akbabev22\\Documents\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\header.h",
+              "DocumentMoniker": "C:\\Users\\akbabev22\\source\\repos\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\header.h",
               "RelativeDocumentMoniker": "ConsoleApplication1\\header.h",
-              "ToolTip": "C:\\Users\\akbabev22\\Documents\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\header.h",
+              "ToolTip": "C:\\Users\\akbabev22\\source\\repos\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\header.h",
               "RelativeToolTip": "ConsoleApplication1\\header.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAQAAAA",
+              "ViewState": "AQIAACEAAAAAAAAwBpwQwCcAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-02-22T14:41:31.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ConsoleApplication1.cpp",
-              "DocumentMoniker": "C:\\Users\\akbabev22\\Documents\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "DocumentMoniker": "C:\\Users\\akbabev22\\source\\repos\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp",
               "RelativeDocumentMoniker": "ConsoleApplication1\\ConsoleApplication1.cpp",
-              "ToolTip": "C:\\Users\\akbabev22\\Documents\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "ToolTip": "C:\\Users\\akbabev22\\source\\repos\\2324-space-sprint-project-cosmos-y\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp",
               "RelativeToolTip": "ConsoleApplication1\\ConsoleApplication1.cpp",
-              "ViewState": "AQIAADQAAAAAAEAEwaAawAQAAAAAAAAA",
+              "ViewState": "AQIAADYAAACAVlUHGC0hwFYAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-02-22T14:41:31.825Z",
               "EditorCaption": ""

@@ -12,7 +12,7 @@ void displayMainMenu() {
     std::cout << "|___|_______________________________|" << std::endl;
 }
 
-void displayPlanetsMenu() {
+void displaySolarPlanetsMenu() {
     system("CLS");
     std::cout << "=====================================" << std::endl;
     std::cout << "|            Planets                |" << std::endl;
@@ -235,7 +235,7 @@ void displayUranusInfo() {
 void displayNeptuneInfo() {
     system("CLS");
     std::cout << BLUE << "=====================================" << RESET << std::endl;
-    std::cout << BLUE << "|              Neptune              |   " << RESET << std::endl;
+    std::cout << BLUE << "|              Neptune              |" << RESET << std::endl;
     std::cout << BLUE << "=====================================" << RESET << std::endl;
     std::cout << "|           |                        |" << std::endl;
     std::cout << "|  Place in |   Neptune is the 8th   |" << std::endl;
@@ -305,7 +305,9 @@ void displayGalaxiesMenu() {
     std::cout << "| [1] | Milky Way                    |" << std::endl;
     std::cout << "| [2] | Andromeda                    |" << std::endl;
     std::cout << "| [3] | Triangulum                   |" << std::endl;
-    std::cout << "| [4] | Back to Main Menu            |" << std::endl;
+    std::cout << "| [4] | Tadpole Galaxy               |" << std::endl;
+    std::cout << "| [5] | Hoag's Object                |" << std::endl;
+    std::cout << "| [6] | Back to Main Menu            |" << std::endl;
     std::cout << "|____________________________________|" << std::endl;
 }
 
@@ -329,14 +331,150 @@ void displayMilkyWayInfo() {
     std::cout << "|           |    years in diameter  |" << std::endl;
     std::cout << "|___________|_______________________|" << std::endl;
     std::cout << "|           |                       |" << std::endl;
-    std::cout << "|           |   The Milky Way is    |" << std::endl;
-    std::cout << "|           | composed by billions  |" << std::endl;
-    std::cout << "|           | stars, dust, debree,  |" << std::endl;
-    std::cout << "|Composition|   dark matter and     |" << std::endl;
-    std::cout << "|           |  other space bodies   |" << std::endl;
-    std::cout << "|           |   just like other     |" << std::endl;
-    std::cout << "|           |       galaxies        |" << std::endl;
+    std::cout << "|           |The Milky Way is       |" << std::endl;
+    std::cout << "|           |believed to be         |" << std::endl;
+    std::cout << "|    Age    |approximately          |" << std::endl;
+    std::cout << "|           |13.6 billion years old,|" << std::endl;
+    std::cout << "|           |nearly as old as the   |" << std::endl;
+    std::cout << "|           |universe itself.       |" << std::endl;
     std::cout << "|___________|_______________________|" << std::endl;
+}
 
+void displayAndromedaInfo() {
+    system("CLS");
+    std::cout << BEIGE << "=====================================" << RESET << std::endl;
+    std::cout << BEIGE << "|          Andromeda Galaxy         |" << RESET << std::endl;
+    std::cout << BEIGE << "=====================================" << RESET << std::endl;
+    std::cout << "|                                   |" << std::endl;
+    std::cout << "|  The Andromeda Galaxy, also known |" << std::endl;
+    std::cout << "| as M31, is a barred spiral galaxy |" << std::endl;
+    std::cout << "| located approximately 2.5 million |" << std::endl;
+    std::cout << "|   light-years from Earth. It is   |" << std::endl;
+    std::cout << "|    nearest spiral galaxy to the   |" << std::endl;
+    std::cout << "|    Milky Way and is approaching   |" << std::endl;
+    std::cout << "|      towards a collision with     |" << std::endl;
+    std::cout << "|        our galaxy in about        |" << std::endl;
+    std::cout << "|         4.5 billion years.        |" << std::endl;
+    std::cout << "|___________________________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           | The Andromeda Galaxy  |" << std::endl;
+    std::cout << "|           |  is a massive spiral  |" << std::endl;
+    std::cout << "|    Size   |galaxy, with a diameter|" << std::endl;
+    std::cout << "|           |   of approximately    |" << std::endl;
+    std::cout << "|           |       220,000ly.      |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           | The Andromeda Galaxy  |" << std::endl;
+    std::cout << "|           | has an estimated age  |" << std::endl;
+    std::cout << "|           | of approximately 10   |" << std::endl;
+    std::cout << "|    Age    | billion years, making |" << std::endl;
+    std::cout << "|           | it one of the oldest  |" << std::endl;
+    std::cout << "|           | galaxies in the       |" << std::endl;
+    std::cout << "|           | Universe.             |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+}
 
+void displayTriangulumInfo() {
+    system("CLS");
+    std::cout << CYAN2 << "=====================================" << RESET << std::endl;
+    std::cout << CYAN2 << "|         Triangulum Galaxy         |" << RESET << std::endl;
+    std::cout << CYAN2 << "=====================================" << RESET << std::endl;
+    std::cout << "|                                   |" << std::endl;
+    std::cout << "| The Triangulum Galaxy, also known |" << std::endl;
+    std::cout << "| as Messier 33 or M33, is a spiral |" << std::endl;
+    std::cout << "|  galaxy located approximately 3   |" << std::endl;
+    std::cout << "|  million light-years from Earth.  |" << std::endl;
+    std::cout << "| It is a member of the Local Group |" << std::endl;
+    std::cout << "| of galaxies, which is part of the |" << std::endl;
+    std::cout << "|         Virgo Supercluster.       |" << std::endl;
+    std::cout << "|___________________________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           | The Triangulum Galaxy |" << std::endl;
+    std::cout << "|    Size   |is considerably smaller|" << std::endl;
+    std::cout << "|           |than the Milky Way and |" << std::endl;
+    std::cout << "|           |Andromeda, with a      |" << std::endl;
+    std::cout << "|           |diameter of about      |" << std::endl;
+    std::cout << "|           |60,000ly.              |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           | The Triangulum Galaxy |" << std::endl;
+    std::cout << "|    Age    |is estimated to be     |" << std::endl;
+    std::cout << "|           |around 10-12 billion   |" << std::endl;
+    std::cout << "|           |years old, similar to  |" << std::endl;
+    std::cout << "|           |the Milky Way and      |" << std::endl;
+    std::cout << "|           |Andromeda galaxies.    |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+}
+
+void displayTadpoleInfo() {
+    system("CLS");
+    std::cout << LIGHT_BLUE << "=====================================" << RESET << std::endl;
+    std::cout << LIGHT_BLUE << "|           Tadpole Galaxy          |" << RESET << std::endl;
+    std::cout << LIGHT_BLUE << "=====================================" << RESET << std::endl;
+    std::cout << "|                                   |" << std::endl;
+    std::cout << "|  The Tadpole Galaxy, also known   |" << std::endl;
+    std::cout << "|  as UGC 10214 or Arp 188, is an   |" << std::endl;
+    std::cout << "|    interacting galaxy located     |" << std::endl;
+    std::cout << "|    approximately 420 million      |" << std::endl;
+    std::cout << "|   light-years away in the Draco   |" << std::endl;
+    std::cout << "|  constellation. It was discovered |" << std::endl;
+    std::cout << "|  by the Hubble Space Telescope on |" << std::endl;
+    std::cout << "|          March 13, 2002.          |" << std::endl;
+    std::cout << "|___________________________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           | The Tadpole Galaxy is |" << std::endl;
+    std::cout << "|    Size   |relatively small, with |" << std::endl;
+    std::cout << "|           |a diameter of about    |" << std::endl;
+    std::cout << "|           |over 120,000ly away    |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           | The Tadpole Galaxy is |" << std::endl;
+    std::cout << "|    Age    |believed to be quite   |" << std::endl;
+    std::cout << "|           |young in cosmic terms, |" << std::endl;
+    std::cout << "|           |with an estimated age  |" << std::endl;
+    std::cout << "|           |of around a few hundred|" << std::endl;
+    std::cout << "|           |million years.         |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           | The Tadpole Galaxy    |" << std::endl;
+    std::cout << "|   Shape   |has a distinctive      |" << std::endl;
+    std::cout << "|           |tadpole-like shape,    |" << std::endl;
+    std::cout << "|           |characterized by a     |" << std::endl;
+    std::cout << "|           |bright head and a long |" << std::endl;
+    std::cout << "|           |tail of stars and gas. |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+}
+
+void displayHoagInfo() {
+    system("CLS");
+    std::cout << LIGHT_YELLOW << "=====================================" << RESET << std::endl;
+    std::cout << LIGHT_YELLOW << "|           Hoag's Object           |" << RESET << std::endl;
+    std::cout << LIGHT_YELLOW << "=====================================" << RESET << std::endl;
+    std::cout << "|                                   |" << std::endl;
+    std::cout << "|    Hoag's Object is a rare ring   |" << std::endl;
+    std::cout << "| ring galaxy located approximately |" << std::endl;
+    std::cout << "|  600 million light-years away in  |" << std::endl;
+    std::cout << "|  the constellation Serpens. It    |" << std::endl;
+    std::cout << "|   was discovered by astronomer    |" << std::endl;
+    std::cout << "|         Art Hoag in 1950.         |" << std::endl;
+    std::cout << "|___________________________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           |Hoag's Object is       |" << std::endl;
+    std::cout << "|    Size   |quite large, with a    |" << std::endl;
+    std::cout << "|           |diameter of about      |" << std::endl;
+    std::cout << "|           |100,000 light-years.   |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           |Hoag's Object is       |" << std::endl;
+    std::cout << "|    Age    |estimated to be quite  |" << std::endl;
+    std::cout << "|           |old, with an age of    |" << std::endl;
+    std::cout << "|           |about 13 billion years.|" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
+    std::cout << "|           |                       |" << std::endl;
+    std::cout << "|           |Hoag's Object is       |" << std::endl;
+    std::cout << "|   Shape   |characterized by a     |" << std::endl;
+    std::cout << "|           |bright core surrounded |" << std::endl;
+    std::cout << "|           |by a nearly perfect    |" << std::endl;
+    std::cout << "|           |ring of stars.         |" << std::endl;
+    std::cout << "|___________|_______________________|" << std::endl;
 }

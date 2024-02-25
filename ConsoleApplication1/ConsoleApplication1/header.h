@@ -14,6 +14,10 @@
 #define JUPITER "\033[38;2;176;159;140m"
 #define DARK_BLUE "\033[0;34m"
 #define PURPLE "\033[38;2;112;38;112m"
+#define BEIGE "\033[38;2;255;228;196m"
+#define CYAN2 "\033[38;2;13;152;186m"
+#define LIGHT_BLUE "\033[38;2;173;216;230m"
+#define LIGHT_YELLOW "\033[38;2;254;255;120m"
 
 void displayMercuryInfo();
 
@@ -33,7 +37,7 @@ void displayNeptuneInfo();
 
 void displayMainMenu();
 
-void displayPlanetsMenu();
+void displaySolarPlanetsMenu();
 
 void displayOtherSpaceBodiesMenu();
 
@@ -46,3 +50,11 @@ void waitForEnter();
 void displayGalaxiesMenu();
 
 void displayMilkyWayInfo();
+
+void displayAndromedaInfo();
+
+void displayTriangulumInfo();
+
+void displayTadpoleInfo();
+
+void displayHoagInfo();
