@@ -65,3 +65,9 @@ void displayNeutronStarInfo();
 void displayAsteroidInfo();
 
 void displayUniverseInfo();
+
+void displayHiggsBosonInfo();
+
+void displayParticleMenu();
+
+void displayStandardModelTable();

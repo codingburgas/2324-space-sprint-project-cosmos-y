@@ -9,14 +9,15 @@ void displayMainMenu() {
     std::cout << "|[1]| Planets                       |" << std::endl;
     std::cout << "|[2]| Galaxies                      |" << std::endl;
     std::cout << "|[3]| Other Space Bodies            |" << std::endl;
-    std::cout << "|[4]| Exit                          |" << std::endl;
+    std::cout << "|[4]| Particles                     |" << std::endl;
+    std::cout << "|[5]| Exit                          |" << std::endl;
     std::cout << "|___________________________________|" << std::endl;
 }
 
 void displaySolarPlanetsMenu() {
     system("CLS");
     std::cout << "=====================================" << std::endl;
-    std::cout << "|            Planets                |" << std::endl;
+    std::cout << "|              Planets              |" << std::endl;
     std::cout << "=====================================" << std::endl;
     std::cout << "| [1] | Mercury                     |" << std::endl;
     std::cout << "| [2] | Venus                       |" << std::endl;
@@ -33,7 +34,7 @@ void displaySolarPlanetsMenu() {
 void displayOtherSpaceBodiesMenu() {
     system("CLS");
     std::cout << "=====================================" << std::endl;
-    std::cout << "|         Other Space Bodies        |" << std::endl;
+    std::cout << "|        Other Space Bodies         |" << std::endl;
     std::cout << "=====================================" << std::endl;
     std::cout << "| [1] | Black Hole                  |" << std::endl;
     std::cout << "| [2] | White Dwarf                 |" << std::endl;
@@ -58,11 +59,23 @@ void displayGalaxiesMenu() {
     std::cout << "|____________________________________|" << std::endl;
 }
 
-void waitForEnter() {
-    std::cout << "Press Enter to continue...";
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    std::cin.get();
+void displayParticleMenu() {
+    system("CLS");
+    std::cout << "=====================================" << std::endl;
+    std::cout << "|             Particles             |" << std::endl;
+    std::cout << "=====================================" << std::endl;
+    std::cout << "| [1] | Standard Model              |" << std::endl;
+    std::cout << "| [2] | Higgs boson                 |" << std::endl;
+    std::cout << "| [3] | Back to Main Menu           |" << std::endl;
+    std::cout << "|___________________________________|" << std::endl;
 }
+
+    void waitForEnter() {
+        std::cout << "Press Enter to continue...";
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        std::cin.get();
+    }
+
 
 void displayMercuryInfo() {
     system("CLS");
@@ -680,3 +693,88 @@ void displayHoagInfo() {
     std::cout << "|           |ring of stars.         |" << std::endl;
     std::cout << "|___________|_______________________|" << std::endl;
 }
+
+void displayHiggsBosonInfo() {
+    system("CLS");
+    std::cout << YELLOW << "===============================================================================" << RESET<< std::endl;
+    std::cout << YELLOW << "|" << LIGHT_YELLOW << "                                Higgs Boson                                 " << YELLOW << " | "  << RESET << std::endl;
+    std::cout << YELLOW << "===============================================================================" << RESET << std::endl;
+    std::cout << "|                                                                             |" << std::endl;
+    std::cout << "|  General Info:                                                              |" << std::endl;
+    std::cout << "|  The Higgs boson is an elementary particle in the Standard Model of particle|" << std::endl;
+    std::cout << "|  physics. It is responsible for the mechanism that gives mass to other      |" << std::endl;
+    std::cout << "|  particles. Without the Higgs boson, particles would move at the speed of   |" << std::endl;
+    std::cout << "|  light, making the universe very different from what we observe. The        |" << std::endl;
+    std::cout << "|  discovery of the Higgs boson confirmed a key prediction of the Standard    |" << std::endl;
+    std::cout << "|  Model.                                                                     |" << std::endl;
+    std::cout << "|                                                                             |" << std::endl;
+    std::cout << "===============================================================================" << std::endl;
+    std::cout << "|                                                                             |" << std::endl;
+    std::cout << "|  History:                                                                   |" << std::endl;
+    std::cout << "|  The existence of the Higgs boson was first theorized in the 1960s by       |" << std::endl;
+    std::cout << "|  Peter Higgs and others. Its existence was confirmed by experiments at the  |" << std::endl;
+    std::cout << "|  Large Hadron Collider (LHC) in 2012. The discovery of the Higgs boson was  |" << std::endl;
+    std::cout << "|  a major milestone in particle physics, earning François Englert and Peter  |" << std::endl;
+    std::cout << "|  Higgs the Nobel Prize in Physics in 2013.                                  |" << std::endl;
+    std::cout << "|                                                                             |" << std::endl;
+    std::cout << "===============================================================================" << std::endl;
+    std::cout << "|                                                                             |" << std::endl;
+    std::cout << "|  Use:                                                                       |" << std::endl;
+    std::cout << "|  Understanding the Higgs mechanism is crucial for understanding the origins |" << std::endl;
+    std::cout << "|  of mass in the universe. The discovery of the Higgs boson confirmed the    |" << std::endl;
+    std::cout << "|  validity of the Standard Model and opened up new avenues for research in   |" << std::endl;
+    std::cout << "|  particle physics. The Higgs boson is also important in cosmology and the   |" << std::endl;
+    std::cout << "|  study of the early universe. It provides insights into the fundamental     |" << std::endl;
+    std::cout << "|  forces and particles that govern our universe.                             |" << std::endl;
+    std::cout << "|                                                                             |" << std::endl;
+    std::cout << "===============================================================================" << std::endl;
+    std::cout << "|                                                                             |" << std::endl;
+    std::cout << "|  Interactions:                                                              |" << std::endl;
+    std::cout << "|  The Higgs boson interacts with other particles through the Higgs field,    |" << std::endl;
+    std::cout << "|  which permeates the universe. Its interactions are responsible for giving  |" << std::endl;
+    std::cout << "|  mass to fundamental particles such as electrons and quarks. Understanding  |" << std::endl;
+    std::cout << "|  these interactions is essential for understanding the behavior of matter at|" << std::endl;
+    std::cout << "|  both microscopic and cosmic scales.                                        |" << std::endl;
+    std::cout << "|                                                                             |" << std::endl;
+    std::cout << "===============================================================================" << std::endl;
+}
+
+void displayStandardModelTable() {
+        system("CLS");
+        std::cout << PURPLE << "====================================" << RED << "============" << YELLOW << "===============" << RESET << std::endl;
+        std::cout << PURPLE << "|           |           |           " << RED << "|           " << YELLOW << "|             |" << RESET << std::endl;
+        std::cout << PURPLE << "|     u     |     c     |     t     " << RED << "|    g      " << YELLOW << "|      H      | " << RESET << std::endl;
+        std::cout << PURPLE << "|    up     |   charm   |    top    " << RED << "|  gluon    " << YELLOW << "| higgs boson | " << RESET << std::endl;
+        std::cout << PURPLE << "|-----------|-----------|-----------" << RED << "|-----------" << YELLOW << "|-------------| " << RESET << std::endl;
+        std::cout << PURPLE << "|           |           |           " << RED << "|           |" << RESET << std::endl;
+        std::cout << PURPLE << "|     d     |     s     |     b     " << RED << "|     Y     |" << RESET << std::endl;
+        std::cout << PURPLE << "|    Down   |           |   bottom  " << RED << "|   photon  |" << RESET << std::endl;
+        std::cout << GREEN << "|-----------|-----------|-----------" << RED << "|-----------|" << RESET << std::endl;
+        std::cout << GREEN << "|           |           |           " << RED << "|           |" << RESET << std::endl;
+        std::cout << GREEN << "|     e     |     \xe6     |     \xe7     " << RED << "|     Z     |" << RESET <<  std::endl;
+        std::cout << GREEN << "|  electron |    muon   |    tau    " << RED << "|  Z boson  |" << RESET << std::endl;
+        std::cout << GREEN << "|-----------|-----------|-----------" << RED << "|-----------|" << RESET << std::endl;
+        std::cout << GREEN << "|           |           |           " << RED << "|           |" << RESET << std::endl;
+        std::cout << GREEN << "|    Ve     |    V\xe6     |     V\xe7    " << RED << "|     W     |" << RESET << std::endl;
+        std::cout << GREEN << "|           |           |           " << RED << "|  W boson  |" << RESET <<  std::endl;
+        std::cout << GREEN << "====================================" << RED << "=============" << RESET << std::endl;
+        std::cout << std::endl;
+        std::cout << std::endl;
+        std::cout << std::endl;
+        std::cout << std::endl;
+        std::cout << "Ve - electron neutrino" << std::endl;
+        std::cout << "V\xe6 - muon neutrino" << std::endl;
+        std::cout << "V\xe7 - tau neutrino" << std::endl;
+        std::cout << std::endl;
+        std::cout << std::endl;
+        std::cout << std::endl;
+        std::cout << PURPLE << "O " << RESET << "= Quarks" << std::endl;
+        std::cout << GREEN << "O " << RESET << "= Leptons" << std::endl;
+        std::cout << RED << "O " << RESET << "= Gauge (Vector) Bosons" << std::endl;;
+        std::cout << YELLOW << "O " << RESET << "= Scalar Bosons" << std::endl;
+    }
+
+
+
+
+

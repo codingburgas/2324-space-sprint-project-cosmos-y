@@ -6,6 +6,7 @@ int main()
 {
     int mainChoice;
     int subChoice;
+    int particleChoice;
     do {
         displayMainMenu();
 
@@ -53,7 +54,7 @@ int main()
                     waitForEnter();
                     break;
                 case 9:
-                    break;  
+                    break;
                 default:
                     std::cout << "Invalid choice. Please try again." << std::endl;
                     std::cin.clear();
@@ -134,18 +135,42 @@ int main()
             } while (subChoice != 6);
             break;
         case 4:
+            do {
+                displayParticleMenu();
+                std::cout << "Enter your choice: ";
+                std::cin >> particleChoice;
+
+                switch (particleChoice) {
+                case 1:
+                    displayStandardModelTable();
+                    waitForEnter();
+                    break;
+                case 2:
+                    displayHiggsBosonInfo();
+                    waitForEnter();
+                    break;
+                case 3:
+                    break;
+                default:
+                    std::cout << "Invalid choice. Please try again." << std::endl;
+                    std::cin.clear();
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                }
+            } while (particleChoice != 3);
+            break;
+        case 5:
             std::cout << "Exiting Cosmos-Y..." << std::endl;
             break;
         default:
             std::cout << "Invalid choice. Please try again." << std::endl;
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
         }
 
-        // wait for enter before clearing the screen
         waitForEnter();
 
-    } while (mainChoice != 4);
+    } while (mainChoice != 5);
 
     
 
