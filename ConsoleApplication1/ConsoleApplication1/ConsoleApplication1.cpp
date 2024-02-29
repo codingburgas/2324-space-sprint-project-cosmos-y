@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdlib>  // for system CLS to clear the console
 #include "header.h"
+using namespace std;
 
 int main() 
 {
@@ -10,15 +11,15 @@ int main()
     do {
         displayMainMenu();
 
-        std::cout << "Enter your choice: ";
-        std::cin >> mainChoice;
+         cout << "Enter your choice: ";
+         cin >> mainChoice;
 
         switch (mainChoice) {
         case 1:
             do {
                 displaySolarPlanetsMenu();
-                std::cout << "Enter your choice: ";
-                std::cin >> subChoice;
+                 cout << "Enter your choice: ";
+                 cin >> subChoice;
 
                 switch (subChoice) {
                 case 1:
@@ -56,17 +57,17 @@ int main()
                 case 9:
                     break;
                 default:
-                    std::cout << "Invalid choice. Please try again." << std::endl;
-                    std::cin.clear();
-                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                     cout << "Invalid choice. Please try again." <<  endl;
+                     cin.clear();
+                     cin.ignore( numeric_limits< streamsize>::max(), '\n');
                 }
             } while (subChoice != 9);
             break;
         case 2:
             do {
                 displayGalaxiesMenu();
-                std::cout << "Enter your choice: ";
-                std::cin >> subChoice;
+                 cout << "Enter your choice: ";
+                 cin >> subChoice;
 
                 switch (subChoice) {
                 case 1:
@@ -92,17 +93,17 @@ int main()
                 case 6:
                     break;
                 default:
-                    std::cout << "Invalid choice. Please try again." << std::endl;
-                    std::cin.clear();
-                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                     cout << "Invalid choice. Please try again." <<  endl;
+                     cin.clear();
+                     cin.ignore( numeric_limits< streamsize>::max(), '\n');
                 }
             } while (subChoice != 6);
             break;
         case 3:
             do {
                 displayOtherSpaceBodiesMenu();
-                std::cout << "Enter your choice: ";
-                std::cin >> subChoice;
+                 cout << "Enter your choice: ";
+                 cin >> subChoice;
 
                 switch (subChoice) {
                 case 1:
@@ -128,17 +129,17 @@ int main()
                 case 6:
                     break;
                 default:
-                    std::cout << "Invalid choice. Please try again." << std::endl;
-                    std::cin.clear();
-                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                     cout << "Invalid choice. Please try again." <<  endl;
+                     cin.clear();
+                     cin.ignore( numeric_limits< streamsize>::max(), '\n');
                 }
             } while (subChoice != 6);
             break;
         case 4:
             do {
                 displayParticleMenu();
-                std::cout << "Enter your choice: ";
-                std::cin >> particleChoice;
+                 cout << "Enter your choice: ";
+                 cin >> particleChoice;
 
                 switch (particleChoice) {
                 case 1:
@@ -152,19 +153,19 @@ int main()
                 case 3:
                     break;
                 default:
-                    std::cout << "Invalid choice. Please try again." << std::endl;
-                    std::cin.clear();
-                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                     cout << "Invalid choice. Please try again." <<  endl;
+                     cin.clear();
+                     cin.ignore( numeric_limits< streamsize>::max(), '\n');
                 }
             } while (particleChoice != 3);
             break;
         case 5:
-            std::cout << "Exiting Cosmos-Y..." << std::endl;
+             cout << "Exiting Cosmos-Y..." <<  endl;
             break;
         default:
-            std::cout << "Invalid choice. Please try again." << std::endl;
-            std::cin.clear();
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+             cout << "Invalid choice. Please try again." <<  endl;
+             cin.clear();
+             cin.ignore( numeric_limits< streamsize>::max(), '\n');
 
         }
 
