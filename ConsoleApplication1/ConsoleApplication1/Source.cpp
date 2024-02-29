@@ -1,9 +1,11 @@
 #include "header.h"
+#include <iostream>
+#include <cstdlib> //Has traditional C functions and datatypes.
 using namespace std;
 
 
 void displayMainMenu() {
-    system("CLS");
+    system("CLS"); //Use to clear console
      cout << "=====================================" <<  endl;
      cout << "|             Cosmos-Y              | " <<  endl;
      cout << "=====================================" <<  endl;
@@ -107,9 +109,9 @@ void displayMercuryInfo() {
 
 void displayVenusInfo() {
     system("CLS");
-     cout << VENUS << "=====================================" << RESET <<  endl;
-     cout << VENUS << "|               Venus               |" << RESET <<  endl;
-     cout << VENUS << "=====================================" << RESET <<  endl;
+     cout << VENUS << "======================================" << RESET <<  endl;
+     cout << VENUS << "|                Venus               |" << RESET <<  endl;
+     cout << VENUS << "======================================" << RESET <<  endl;
      cout << "|   Place   |                        |" <<  endl;
      cout << "|    in     |  Venus is the second   |" <<  endl;
      cout << "|  S.system |planet in the S. system.|" <<  endl;
@@ -275,9 +277,9 @@ void displayUranusInfo() {
 
 void displayNeptuneInfo() {
     system("CLS");
-     cout << BLUE << "=====================================" << RESET <<  endl;
-     cout << BLUE << "|              Neptune              |" << RESET <<  endl;
-     cout << BLUE << "=====================================" << RESET <<  endl;
+     cout << BLUE << "======================================" << RESET <<  endl;
+     cout << BLUE << "|               Neptune              |" << RESET <<  endl;
+     cout << BLUE << "======================================" << RESET <<  endl;
      cout << "|           |                        |" <<  endl;
      cout << "|  Place in |   Neptune is the 8th   |" <<  endl;
      cout << "|   Solar   |    planet being the    |" <<  endl;
@@ -744,8 +746,8 @@ void displayStandardModelTable() {
         system("CLS");
          cout << PURPLE << "====================================" << RED << "============" << YELLOW << "===============" << RESET <<  endl;
          cout << PURPLE << "|           |           |           " << RED << "|           " << YELLOW << "|             |" << RESET <<  endl;
-         cout << PURPLE << "|     u     |     c     |     t     " << RED << "|    g      " << YELLOW << "|      H      | " << RESET <<  endl;
-         cout << PURPLE << "|    up     |   charm   |    top    " << RED << "|  gluon    " << YELLOW << "| higgs boson | " << RESET <<  endl;
+         cout << PURPLE << "|     u     |     c     |     t     " << RED << "|     g     " << YELLOW << "|      H      | " << RESET <<  endl;
+         cout << PURPLE << "|    up     |   charm   |    top    " << RED << "|   gluon   " << YELLOW << "| higgs boson | " << RESET <<  endl;
          cout << PURPLE << "|-----------|-----------|-----------" << RED << "|-----------" << YELLOW << "|-------------| " << RESET <<  endl;
          cout << PURPLE << "|           |           |           " << RED << "|           |" << RESET <<  endl;
          cout << PURPLE << "|     d     |     s     |     b     " << RED << "|     Y     |" << RESET <<  endl;

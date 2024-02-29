@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdlib>  // for system CLS to clear the console
 #include "header.h"
 using namespace std;
 
@@ -58,8 +57,8 @@ int main()
                     break;
                 default:
                      cout << "Invalid choice. Please try again." <<  endl;
-                     cin.clear();
-                     cin.ignore( numeric_limits< streamsize>::max(), '\n');
+                     cin.clear();                                           // Detects invalid inputs in switch statement
+                     cin.ignore( numeric_limits< streamsize>::max(), '\n'); // Clears the input buffer
                 }
             } while (subChoice != 9);
             break;
